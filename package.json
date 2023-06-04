@@ -1,0 +1,37 @@
+{
+  "name": "m1sjo--verse",
+  "displayName": "Verse* Language",
+  "description": "Language package for an user defined version of the Epic Games' Verse language based on the Haskell Exchange (2022) slides and the March 2023 version of the Verse paper published by Simon Peyton Jones.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "ve",
+        "aliases": [
+          "Verse",
+          "ve"
+        ],
+        "extensions": [
+          ".ve"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "ve",
+        "scopeName": "source.verse",
+        "path": "./syntaxes/ve.tmLanguage.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
