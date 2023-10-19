@@ -1,6 +1,7 @@
 # m1sjo--verse README
 
-This is the README for your extension "m1sjo--verse". After writing up a brief description, we recommend including the following sections.
+This repo was a first try to create a VS Code language extension for a own version of the Verse language.
+Unfortunately I wasn't very successful for now, just startet off. And it is currently not planned to finish this attempt.
 
 ## Features
 
